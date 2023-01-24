@@ -1,8 +1,7 @@
 <script>
-  import MathRow from "./MathRow.svelte";
   export let data;
+  import MathRow from "./MathRow.svelte";
   import Number from "./Number.svelte";
-  console.log(data);
 </script>
 
 <div

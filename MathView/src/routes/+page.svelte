@@ -2,6 +2,6 @@
   import Math from "../lib/Math.svelte";
 </script>
 
-<div class="overflow-auto p-4">
+<div class="">
   <Math value="1+2" />
 </div>
