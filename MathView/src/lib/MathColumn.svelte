@@ -20,7 +20,7 @@
     {/if}
 
     {#if index !== data.values.length - 1}
-      <hr />
+      <hr class="h-px bg-black rounded-full border-none" />
     {/if}
   {/each}
 </div>
