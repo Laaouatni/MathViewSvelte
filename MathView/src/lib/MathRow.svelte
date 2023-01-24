@@ -3,9 +3,15 @@
   import Number from "./Number.svelte";
 </script>
 
-<div class="flex gap-2 items-center p-4 rounded-2xl hover:scale-95 hover:shadow-lg hover:border transition">
+<div
+  class="flex gap-2 items-center p-3 rounded-xl hover:shadow-lg border w-max transition"
+>
   {#each data.values as item, index}
-    <Number value={item} />
+    {#if typeof item !== "object"}
+      <Number value={item} />
+    {:else}
+      <svelte:self data={item} />
+    {/if}
     {#if index !== data.values.length - 1}
       <span>{data.operation}</span>
     {/if}

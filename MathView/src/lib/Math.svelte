@@ -2,7 +2,8 @@
   import mathToJson from "../scripts/mathToJson";
   import MathRow from "./MathRow.svelte";
 
-  let result = mathToJson("1+2+3+4");
+  let result = mathToJson("1+2+3+4+(1+2+3+4+(1+2+3+4)+(1+2+(1+2)))");
+  console.log(result);
 </script>
 
-<MathRow data={result}/>
+<MathRow data={result} />
