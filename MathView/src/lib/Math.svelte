@@ -1,9 +1,13 @@
 <script>
-  import mathToJson from "../scripts/mathToJson";
+  export let value;
+  import MathColumn from "./MathColumn.svelte";
   import MathRow from "./MathRow.svelte";
-
-  let result = mathToJson("1+2+3+4+(1+2+3+4+(1+2+3+4)+(1+2+(1+2)))");
-  console.log(result);
 </script>
+<!-- 
+{#if value.operation === "/"}
+  <MathColumn data={value} />
+{:else}
+  <MathRow data={value} />
+{/if} -->
+<MathRow data={value} />
 
-<MathRow data={result} />
