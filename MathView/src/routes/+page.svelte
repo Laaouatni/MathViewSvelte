@@ -3,5 +3,5 @@
 </script>
 
 <div class="p-4">
-  <Math value="1+2/2+2+(10+10/2)" />
+  <Math value="1/(1/56+1/86)" />
 </div>

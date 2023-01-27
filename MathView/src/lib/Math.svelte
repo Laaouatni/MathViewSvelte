@@ -8,7 +8,7 @@
   $: data = mathToJson(value);
 </script>
 
-{#if value.operation === "/"}
+{#if data.operation === "/"}
   <MathColumn {data} />
 {:else}
   <MathRow {data} />
