@@ -1,5 +1,6 @@
 <script>
   export let data;
+  
   import MathColumn from "./MathColumn.svelte";
   import Number from "./Number.svelte";
 </script>

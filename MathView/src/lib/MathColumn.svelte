@@ -1,5 +1,6 @@
 <script>
   export let data;
+  
   import MathRow from "./MathRow.svelte";
   import Number from "./Number.svelte";
 </script>
