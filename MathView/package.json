@@ -19,5 +19,5 @@
     "vite": "^4.0.0"
   },
   "type": "module",
-  "repository": "github:laaouatni/mathview-svelte"
+  "repository": "github:laaouatni/MathViewSvelte"
 }
