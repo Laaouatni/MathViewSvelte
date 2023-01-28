@@ -1,6 +1,10 @@
 # MathViewSvelte
 
-example:
+## how to download:
+
+`npm i mathview-svelte`
+
+## example:
 
 `<MathView value="(1+1/(1/2+1/(3+1/(1/4+1/5))))" />`
 
