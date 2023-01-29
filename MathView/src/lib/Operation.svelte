@@ -2,8 +2,8 @@
   export let value;
 </script>
 
-<div
-  class="grid place-items-center"
+<span
+  class="font-bold"
 >
   {value}
-</div>
+</span>
